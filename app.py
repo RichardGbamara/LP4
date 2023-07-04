@@ -35,7 +35,7 @@ if name:
     st.write(f"Welcome, {name}, to **Team Paris** Streamlit app.:smiling_face_with_tear:")
     st.write("Here we will have two projects to work on.:slot_machine:")
     st.write("**Project 1** is a Time Series Machine Learning model used to predict **Sales** with different variables.")
-    st.write("**Project 2** is a Regression project focused on churn analysis and predicts a **YES/NO** based on existing input data.")
+    st.write("**Project 2** is a Regresion project focused on churn analysis and predicts a **YES/NO** based on existing input data.")
     st.write()
 
 project = st.selectbox(" **Select the Project to classify**", ["Time Series problem","Regression Project", "None"])
